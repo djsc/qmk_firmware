@@ -53,7 +53,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
                 return false;
                 break;
             case PLAY_TOGGLE:
-                SEND_STRING(SS_DOWN(X_LALT) SS_DOWN(X_LSHIFT) "s" SS_UP(X_LSHIFT) SS_UP(X_LALT));
+                SEND_STRING(SS_DOWN(X_LALT) SS_DOWN(X_LSHIFT) "q" SS_UP(X_LSHIFT) SS_UP(X_LALT));
                 return false;
                 break;
             case SKIP_FORWARD:
